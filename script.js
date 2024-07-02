@@ -5,10 +5,10 @@ function updateTimeAndDay() {
 
   document.querySelector(
     '[data-testid="currentTimeUTC"]'
-  ).textContent = `Current UTC Time: ${utcTime}`;
+  ).textContent = `${utcTime}`;
   document.querySelector(
     '[data-testid="currentDay"]'
-  ).textContent = `Current Day: ${dayOfWeek}`;
+  ).textContent = `${dayOfWeek}`;
 }
 
 updateTimeAndDay();

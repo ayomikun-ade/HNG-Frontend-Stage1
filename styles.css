@@ -57,17 +57,20 @@ section {
   gap: 2rem;
 }
 
-.details {
-  text-align: left;
-}
-
 img {
   border-radius: 5px;
   margin-bottom: 10px;
 }
 
-b {
+.details p {
   font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+
+.date,
+.time {
+  font-weight: normal !important;
 }
 
 footer {
@@ -84,11 +87,9 @@ footer {
 
 ul {
   list-style: none;
-  /* text-align: left; */
 }
 
 a {
-  /* margin: 10px; */
   text-decoration: none;
   color: #007bff;
   transition: 0.4s ease;
